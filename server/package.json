@@ -1,0 +1,25 @@
+{
+	"name": "code-sync-server",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "",
+	"main": "src/server.js",
+	"scripts": {
+		"dev": "nodemon src/server.js",
+		"start": "node src/server.js",
+		"build": "echo 'No build step needed for JavaScript'"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.6.1",
+		"express": "^4.21.2",
+		"object-assign": "^4.1.1",
+		"socket.io": "^4.8.1"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.2"
+	}
+}
