@@ -37,7 +37,6 @@ You can view the live preview of the project [here](https://code-sync-live.verce
 ## 💻 Tech Stack
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -45,8 +44,6 @@ You can view the live preview of the project [here](https://code-sync-live.verce
 ![Socket io](https://img.shields.io/badge/Socket.io-ffffff?style=for-the-badge)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ## ⚙️ Installation
 
@@ -91,42 +88,7 @@ You can view the live preview of the project [here](https://code-sync-live.verce
    ```bash
    http://localhost:5173/
    ```
-### 🎥 Need help with the setup?
-👉 Watch [this video](https://youtu.be/zVHwOmU0aqo) for a step-by-step guide.
-### Method 2: Docker Installation
 
-1. **Install Docker Desktop:**
-
-   - Download and install **Docker Desktop** from [Docker’s official website](https://www.docker.com/products/docker-desktop/).
-   - Verify installation:
-     ```bash
-     docker --version
-     ```
-
-2. **Pull Docker Images:**
-
-   ```bash
-   # Pull Backend Image
-   docker pull sahilatahar/code-sync-server:latest
-
-   # Pull Frontend Image
-   docker pull sahilatahar/code-sync-client:latest
-   ```
-
-3. **Run Docker Containers:**
-
-   ```bash
-   # Run Backend Container (Port 3000)
-   docker run -d -p 3000:3000 --name code-sync-server sahilatahar/code-sync-server:latest
-
-   # Run Frontend Container (Port 5173)
-   docker run -d -p 5173:5173 --name code-sync-client sahilatahar/code-sync-client:latest
-   ```
-
-4. **Access the application:**
-   ```bash
-   http://localhost:5173/
-   ```
 
 ## 🔮 Features for Next Release
 
@@ -161,35 +123,5 @@ Special thanks to:
   - [Pollinations Repository](https://github.com/pollinations/pollinations)
   - [Pollinations Docs](https://pollinations.ai/)
 
-## ✍️ About Developer
-
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top">
-        <img src="https://github.com/sahilatahar.png" width="120px;" alt="Sahil Atahar"/>
-        <br />
-        <b>Sahil Atahar</b>
-      </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <a href="https://github.com/sahilatahar">
-            <img src="https://img.shields.io/badge/GitHub-100000.svg?style=for-the-badge&logo=github&logoColor=white"/>
-            </a>
-            <br/>
-            <a href="https://linkedin.com/in/sahilatahar">
-            <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
-            </a>
-        </td>
-    </tr>
-  </tbody>
-</table>
-
-## 👥 Collaborators
-
-<a href="https://github.com/sahilatahar/Code-Sync/graphs/contributors">
-   <img src="https://contrib.rocks/image?repo=sahilatahar/Code-Sync" />
-</a>
 
 
